@@ -55,10 +55,10 @@
 
         FUNCTION {
             bindings = <
-&trans            &kp AMPS    &kp ASTRK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp N6    &kp N7    &kp N8                    &kp MINUS                  &kp EQUAL
-&trans            &kp DOLLAR  &kp PERCENT  &kp CARET             &kp SEMI               &trans      &trans  &kp LEFT  &kp DOWN  &kp UP                    &kp RIGHT                  &kp ENTER
-&kp LSHIFT        &kp EXCL    &kp AT       &kp HASH              &kp F5                 &trans      &trans  &kp HOME  &kp END   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp F10
-&kp LEFT_CONTROL  &trans      &trans       &trans                &trans                 &trans      &trans  &trans                                                                   &kp F11
+&trans            &kp AMPS    &kp ASTRK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                      &kp N6    &kp N7    &kp N8                    &kp MINUS                  &kp EQUAL
+&trans            &kp DOLLAR  &kp PERCENT         &kp CARET             &kp SEMI               &trans      &trans  &kp LEFT  &kp DOWN  &kp UP                    &kp RIGHT                  &kp ENTER
+&kp LSHIFT        &kp EXCL    &kp AT              &kp HASH              &kp F5                 &trans      &trans  &kp HOME  &kp END   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp F10
+&kp LEFT_CONTROL  &trans      &kp LC(LA(DELETE))  &trans                &trans                 &trans      &trans  &trans                                                                   &kp F11
             >;
         };
 
