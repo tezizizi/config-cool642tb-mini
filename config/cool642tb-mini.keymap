@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &mkp MB1>
+                = <&macro_press &mkp MB1>
                 , <&macro_wait_time 180>
                 , <&to 0>
                 ;
@@ -63,7 +63,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_tap &mkp MB2>
+                = <&macro_press &mkp MB2>
                 , <&macro_wait_time 180>
                 , <&to 0>
                 ;
