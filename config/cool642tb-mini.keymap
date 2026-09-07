@@ -45,7 +45,7 @@
                 = <&macro_press &mkp MB1>
                 , <&macro_pause_for_release>
                 , <&macro_release &mkp MB1>
-                , <&macro_wait_time 180000>
+                , <&macro_wait_time 180>
                 , <&to 0>
                 ;
         };
@@ -68,7 +68,7 @@
                 = <&macro_press &mkp MB2>
                 , <&macro_pause_for_release>
                 , <&macro_release &mkp MB2>
-                , <&macro_wait_time 180000>
+                , <&macro_wait_time 180>
                 , <&to 0>
                 ;
         };
