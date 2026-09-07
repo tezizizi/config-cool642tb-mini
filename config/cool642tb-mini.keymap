@@ -119,10 +119,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mouse_click_exit  &trans  &mouse_rclick_exit  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mouse_double_click_exit    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &to 0
+&to 0  &to 0  &to 0  &to 0  &to 0                      &to 0  &to 0    &to 0  &to 0    &to 0
+&to 0  &to 0  &to 0  &to 0  &to 0  &to 0      &to 0  &to 0  &mouse_click_exit  &to 0  &mouse_rclick_exit  &to 0
+&to 0  &to 0  &to 0  &to 0  &to 0  &to 0      &to 0  &to 0  &mouse_double_click_exit    &to 0  &to 0    &to 0
+&to 0  &to 0  &to 0  &to 0  &to 0  &to 0      &to 0  &to 0                              &to 0
             >;
         };
 
